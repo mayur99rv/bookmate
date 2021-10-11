@@ -46,6 +46,7 @@ server.post(
         // If a text message is received
       }
     });
+    res.send(200);
     return next();
   }
 );
